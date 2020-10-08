@@ -10,7 +10,7 @@ const myCar = carMakers.pop();
 const theCar = carMakers[1];
 
 // prevent incompatible values
-// carMakers.push(340);  won't work, doesn't match type
+// carMakers.push(340);  won't work, doesn't match typegit add -A
 
 // help with map, forEach, etc
 carMakers.map((car: string) => car);
