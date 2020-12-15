@@ -47,7 +47,7 @@ function printAnything<T>(arr: T[]): void {
 
 printAnything<string>(['a', 'b', 'c']);
 
-// generic constraints
+// **************** generic constraints ****************
 
 class Cars {
   print() {
